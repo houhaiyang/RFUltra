@@ -1,5 +1,5 @@
 
-<div align=center><img width="597" height="249" src="docs/logo.png"/></div>
+<div align=center><img width="597" height="249" src="docs/logo2.png"/></div>
 
 # Random Forest Ultra
 
