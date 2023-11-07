@@ -22,6 +22,9 @@
 
 - Support for plotting average ROC curves
 
+<div align=center><img width="800" height="800" src="docs/RFUltra.svg"/></div>
+
+
 ### Description
 
 This project is based on Python 3.7+ and developed using PyCharm on Windows 10+ (11).
