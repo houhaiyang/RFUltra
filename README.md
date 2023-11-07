@@ -27,9 +27,15 @@ This project is based on Python 3.7+ and developed using PyCharm on Windows 10+ 
 ### Installation
 Requirements: python>=3.7, numpy, pandas, sklearn, tqdm, seaborn, matplotlib
 
+Install through PyPI:
+```commandline
+pip install randomForestUltra==0.2.0
+```
+Install through local:
 ```commandline
 pip install dist/randomForestUltra-0.2.0-py3-none-any.whl
 ```
+
 
 ### Example usage
 
