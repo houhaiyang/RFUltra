@@ -22,7 +22,7 @@
 
 - Support for plotting average ROC curves
 
-<div align=center><img width="800" height="800" src="docs/RFUltra.svg"/></div>
+<div align=center><img width="800" height="800" src="docs/RFUltra.png"/></div>
 
 
 ### Description
