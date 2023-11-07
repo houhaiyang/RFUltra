@@ -3,6 +3,7 @@
 - Author: Haiyang Hou
 - Date: 2023-11-07
 - Version: v0.2.0
+- If you want to use this package, please mark the source.
 
 ### Current function
 
@@ -112,3 +113,5 @@ for i in range(len(target_list)):
 ```
 
 <div align=center><img width="400" height="400" src="docs/ROC.png"/></div>
+
+
