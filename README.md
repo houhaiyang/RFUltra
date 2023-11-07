@@ -70,7 +70,7 @@ rf_FR = RFUltra(X_Full_df, Y_df, target_list, path, target_info,
                 largeSampleSize=False, plotBox=True) # Without a for loop, you can use the GUI.
 ```
 
-##### Example 2: Control the sample size in the training set bootstrap.
+##### Example 2: Control the sample size in the training set bootstrap
 ```python
 for i in range(Y_df.shape[1]):
     y_df = Y_df.iloc[:, i:i + 1].copy()
@@ -114,4 +114,5 @@ for i in range(len(target_list)):
 
 <div align=center><img width="400" height="400" src="docs/ROC.png"/></div>
 
-
+### Additional information
+This project is referenced from: https://github.com/jacksklar/AGPMicrobiomeHostPredictions, A broad search for significant microbiome-modifying host variables from the American Gut Project public microbiome data
