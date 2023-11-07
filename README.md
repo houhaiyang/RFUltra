@@ -1,3 +1,6 @@
+
+<div align=center><img width="597" height="249" src="docs/logo.png"/></div>
+
 # Random Forest Ultra
 
 - Author: Haiyang Hou
