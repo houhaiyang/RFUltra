@@ -1,36 +1,40 @@
 
 <div align=center><img width="597" height="249" src="docs/logo2.png"/></div>
 
+
 # Random Forest Ultra
+
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/randomForestUltra?label=randomForestUltra%20on%20PyPi)](https://pypi.org/project/randomForestUltra/) 
 
 - Author: Haiyang Hou
 - Date: 2023-11-07
 - Version: v0.2.0
-- If you want to use this package, please mark the source.
+- If you want to use this package, please indicate the source and tell me in "lssues". Free use.
 
-### Current function
+## Current function
 
-- Support for multi-target variables (binary)
+* Support for multi-target variables (binary)
 
-- Support for multiple rounds of k-fold cross-validation
+* Support for multiple rounds of k-fold cross-validation
 
-- Support for feature importance calculation in the feature matrix
+* Support for feature importance calculation in the feature matrix
 
-- Support for bootstrap gradient resampling
+* Support for bootstrap gradient resampling
 
-- Support for calculating mean AUC and computing P-value through random permutation
+* Support for calculating mean AUC and computing P-value through random permutation
 
-- Support for plotting average ROC curves
+* Support for plotting average ROC curves
 
 <div align=center><img width="800" height="800" src="docs/RFUltra.png"/></div>
 
 
-### Description
+## Description
 
 This project is based on Python 3.7+ and developed using PyCharm on Windows 10+ (11).
 
+-------------
 
-### Installation
+## Installation
 Requirements: python>=3.7, numpy, pandas, sklearn, tqdm, seaborn, matplotlib
 
 Install through PyPI:
@@ -42,13 +46,14 @@ Install through local:
 pip install dist/randomForestUltra-0.2.0-py3-none-any.whl
 ```
 
+-------------
 
-### Example usage
+## Example usage
 
 Please refer to test.py for an example.
 
 
-##### Import dependency package
+#### Import dependency package
 ```python
 import os
 import pandas as pd
@@ -56,7 +61,7 @@ import numpy as np
 from randomForestUltra.RFUltra import RFUltra,createLongPath
 from randomForestUltra.plotROC import plotROC
 ```
-##### Prepare data
+#### Prepare data
 ```python
 dataPath = 'Your_project_path_prefix/RFUltra'
 target_info = pd.read_csv(os.path.join(dataPath, 'data/y_info.csv'), index_col=0)
@@ -71,7 +76,7 @@ save_path = os.path.join(dataPath, 'result/')
 createLongPath(save_path)
 ```
 
-##### Example 1: One experiment of all samples
+#### Example 1: One experiment of all samples
 ```python
 target_list = list(Y_df.columns)
 path = os.path.join(save_path, f's_all/')
@@ -82,7 +87,7 @@ rf_FR = RFUltra(X_Full_df, Y_df, target_list, path, target_info,
                 largeSampleSize=False, plotBox=True) # Without a for loop, you can use the GUI.
 ```
 
-##### Example 2: Control the sample size in the training set bootstrap
+#### Example 2: Control the sample size in the training set bootstrap
 ```python
 for i in range(Y_df.shape[1]):
     y_df = Y_df.iloc[:, i:i + 1].copy()
@@ -125,6 +130,8 @@ for i in range(len(target_list)):
 ```
 
 <div align=center><img width="400" height="400" src="docs/ROC.png"/></div>
+
+-------------
 
 ### Additional information
 This project is referenced from: https://github.com/jacksklar/AGPMicrobiomeHostPredictions, A broad search for significant microbiome-modifying host variables from the American Gut Project public microbiome data
