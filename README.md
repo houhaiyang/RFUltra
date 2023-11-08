@@ -39,11 +39,11 @@ Requirements: python>=3.7, numpy, pandas, sklearn, tqdm, seaborn, matplotlib
 
 Install through PyPI:
 ```commandline
-pip install randomForestUltra==0.2.0
+pip install randomForestUltra
 ```
 Install through local:
 ```commandline
-pip install dist/randomForestUltra-0.2.0-py3-none-any.whl
+pip install dist/randomForestUltra-0.3.0-py3-none-any.whl
 ```
 
 -------------
