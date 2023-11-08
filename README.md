@@ -7,7 +7,7 @@
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/randomForestUltra?label=randomForestUltra%20on%20PyPi)](https://pypi.org/project/randomForestUltra/) 
 
 - Author: Haiyang Hou
-- Date: 2023-11-07
+- Date: 2023-11-08
 - Version: v0.3.0
 - If you want to use this package, please indicate the source and tell me in "lssues". Free use.
 
