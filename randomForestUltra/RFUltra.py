@@ -4,6 +4,8 @@ import sys
 import numpy as np
 import pandas as pd
 from sklearn.utils import shuffle
+import matplotlib
+matplotlib.use('Agg') # Set up a non-interactive backend !
 import matplotlib.pyplot as plt
 
 
