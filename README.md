@@ -8,7 +8,7 @@
 
 - Author: Haiyang Hou
 - Date: 2023-11-07
-- Version: v0.2.0
+- Version: v0.3.0
 - If you want to use this package, please indicate the source and tell me in "lssues". Free use.
 
 ## Current function
