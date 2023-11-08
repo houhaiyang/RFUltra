@@ -37,6 +37,17 @@ This project is based on Python 3.7+ and developed using PyCharm on Windows 10+ 
 ## Installation
 Requirements: python>=3.7, numpy, pandas, sklearn, tqdm, seaborn, matplotlib
 
+##### 1st | Install numpy scipy matplotlib
+```commandline
+pip install numpy pandas tqdm seaborn matplotlib scipy -i https://pypi.mirrors.ustc.edu.cn/simple/
+```
+##### 2nd | Install scikit-learn
+```commandline
+pip uninstall sklearn # delete sklearn-0.0.post10.dist-info
+pip install scikit-learn -i https://pypi.mirrors.ustc.edu.cn/simple/
+```
+##### 3rd | Install randomForestUltra
+
 Install through PyPI:
 ```commandline
 pip install randomForestUltra
