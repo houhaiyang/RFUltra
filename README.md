@@ -4,7 +4,7 @@
 
 # Random Forest Ultra
 
-[![PyPI - Downloads](https://img.shields.io/pypi/dm/randomForestUltra?label=randomForestUltra%20on%20PyPi)](https://pypi.org/project/randomForestUltra/) 
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/randomForestUltra?label=randomForestUltra%20on%20PyPi)](https://pypi.org/manage/project/randomforestultra/releases/) 
 
 - Author: Haiyang Hou
 - Date: 2023-11-08
