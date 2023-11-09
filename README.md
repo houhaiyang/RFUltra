@@ -7,8 +7,8 @@
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/randomForestUltra?label=randomForestUltra%20on%20PyPi)](https://pypi.org/manage/project/randomforestultra/releases/) 
 
 - Author: Haiyang Hou
-- Date: 2023-11-08
-- Version: v0.3.0
+- Date: 2023-11-09
+- Version: v0.6.3
 - If you want to use this package, please indicate the source and tell me in "lssues". Free use.
 
 ## Current function
@@ -56,7 +56,7 @@ pip install randomForestUltra
 ```
 Install through local:
 ```commandline
-pip install dist/randomForestUltra-0.3.0-py3-none-any.whl
+pip install dist/randomForestUltra-0.6.3-py3-none-any.whl
 ```
 
 -------------
